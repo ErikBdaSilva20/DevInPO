@@ -25,12 +25,12 @@ body::after {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.838); /* Sobreposição escura */
+    background-color: rgba(0, 44, 62, 0.839); /* Sobreposição escura */
     z-index: -1; /* Garante que fique atrás de todo o conteúdo */
 }
 
 .JpSection {
-    background-color: rgba(29, 0, 125, 0.8);
+    background-color: rgba(25, 68, 88, 0.8);
     border-radius: 30px;
     width: 100%;
     max-width: 600px; /* Limita o tamanho em telas grandes */
@@ -43,7 +43,7 @@ button {
     padding: 20px;
     border: none;
     border-radius: 35px;
-    background-color: rgba(185, 0, 241, 0.457);
+    background-color: rgba(0, 185, 241, 0.457);
     cursor: pointer;
     transition: opacity 0.5s ease, box-shadow 0.2s ease;
     color: white;
@@ -53,7 +53,7 @@ button {
 
 button:hover {
     opacity: 0.8;
-    box-shadow: 10px 10px 50px 5px rgba(75, 0, 72, 0.954);
+    box-shadow: 10px 10px 50px 5px rgba(0, 185, 241, 0.457);
     background-color: rgba(189, 178, 225, 0.473);
 }
 
