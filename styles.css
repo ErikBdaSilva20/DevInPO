@@ -5,17 +5,18 @@
 }
 
 html, body {
-    height: 100%; /* Garante que o html e body ocupem 100% da altura */
-    width: 100%; /* Garante que ocupem 100% da largura */
-    overflow: hidden; /* Remove qualquer possibilidade de rolagem */
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 
 body {
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(./asset/Background.jpeg);
-    background-size: cover; /* Faz a imagem ocupar toda a área disponível */
+    background-size: cover;
     position: relative;
+    padding: 10px; 
 }
 
 body::after {
@@ -25,35 +26,35 @@ body::after {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 44, 62, 0.839); /* Sobreposição escura */
-    z-index: -1; /* Garante que fique atrás de todo o conteúdo */
+    background-color: rgba(0, 0, 0, 0.404);
+    z-index: -1;
 }
 
 .JpSection {
-    background-color: rgba(25, 68, 88, 0.8);
+    background-color: rgba(29, 0, 125, 0.646);
     border-radius: 30px;
     width: 100%;
-    max-width: 600px; /* Limita o tamanho em telas grandes */
+    max-width: 600px; 
+    margin: 0 auto; 
     padding: 20px;
 }
-/* Estilos para botões */
+
+
 button {
-    margin: 20px 3px;
     font-size: 70px;
     padding: 20px;
-    border: none;
+    width: 100%;
+    max-width: 120px;
     border-radius: 35px;
-    background-color: rgba(0, 185, 241, 0.457);
+    background-color: rgba(185, 0, 241, 0.457);
     cursor: pointer;
     transition: opacity 0.5s ease, box-shadow 0.2s ease;
     color: white;
 }
 
-
-
 button:hover {
     opacity: 0.8;
-    box-shadow: 10px 10px 50px 5px rgba(0, 185, 241, 0.457);
+    box-shadow: 10px 10px 50px 5px rgba(75, 0, 72, 0.954);
     background-color: rgba(189, 178, 225, 0.473);
 }
 
@@ -61,13 +62,8 @@ button:active {
     background-color: rgba(187, 145, 249, 0.306);
 }
 
-button:not(:hover) {
-    transition-delay: 0.5s;
-}
-
-/* Estilos para textos e pontos */
 p {
-    font-weight: bold;
+    font-weight: bold; 
     font-size: 20px;
     color: rgb(255, 255, 255);
     padding: 5px;
@@ -89,7 +85,25 @@ p {
     color: rgb(150, 0, 163);
 }
 
-/* Estilo para o título */
 h1 {
     color: rgba(0, 238, 255, 0.779);
+}
+
+@media (max-width: 576px) {
+    .buttons {
+        flex-direction: column;
+    }
+
+    button {
+        font-size: 50px;
+        max-width: 100px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
 }
