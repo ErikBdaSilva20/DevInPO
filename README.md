@@ -1,5 +1,5 @@
 <h1>Pedra, Papel, Tesoura 🕹️</h1>
-<h2>🎮 DevInPo é um projeto de jogo interativo de Pedra, Papel, Tesoura, onde o usuário pode desafiar a máquina para uma partida dinâmica. A ideia é simples, mas pode ser divertido!!</h2>
+<h2>🎮 DevInPo é um projeto de jogo interativo de Pedra, Papel, Tesoura, onde o usuário pode desafiar a máquina para uma partida dinâmica.</h2>
 
 <h4>❓ Como funciona:<br>
  1 O usuário escolhe entre Pedra, Papel ou Tesoura, e a máquina escolhe automaticamente uma das opções.<br>
