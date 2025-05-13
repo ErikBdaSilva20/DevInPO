@@ -17,7 +17,6 @@ Praticar habilidades de lógica de programação e manipulação de elementos em
 
 A interação com a máquina e as diferentes possibilidades de escolha tornam o projeto mais interesante.</h4>
 
-
 🚀 Tecnologias utilizadas:
 
 ![HTML Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
