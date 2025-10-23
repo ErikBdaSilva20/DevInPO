@@ -27,9 +27,10 @@ A interação com a máquina e as diferentes possibilidades de escolha tornam o 
 
 ![JavaScript Badge](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
+<h2>🌟 Links</h2>
 
 📂 Repositório no GitHub:[ DevInPo - GitHub](https://github.com/ErikBdaSilva20/DevInPO)
 
 🌐 Projeto no GitHub Pages: [DevInPo - GitHub Pages](https://erikbdasilva20.github.io/DevInPO/)
 
-🔗 Perfil no linkedin: [www.linkedin.com/in/erik-borgessilva20](www.linkedin.com/in/erik-borgessilva20)
+🔗 Perfil no LinkedIn: [https://www.linkedin.com/in/erik-borgessilva20](https://www.linkedin.com/in/erik-borgessilva20)
